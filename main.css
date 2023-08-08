@@ -13,7 +13,7 @@
     grid-column-gap: 1%
 }
 
-.produto {} /* bloco */
+/* .produto {} bloco */
 
 .produto__imagem { /* elemento */
     width: 100%;
