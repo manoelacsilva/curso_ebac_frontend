@@ -8,7 +8,7 @@
 
 // Opção 1:
 
-class Multiplicacao {
+class Multiplicacao1 {
     a: number;
     b: number;
     
@@ -22,18 +22,18 @@ class Multiplicacao {
     };
 };
 
-const numeros = new Multiplicacao(2, 3);
+const numeros = new Multiplicacao1(2, 3);
 const resultado = numeros.multiplicar();
 
 console.log(resultado);
 
 // Opção 2:
 
-function multiplicacao(a: number, b: number): number {
+function multiplicacao2(a: number, b: number): number {
     return a * b;
 };
 
-console.log(multiplicacao(2, 4));
+console.log(multiplicacao2(2, 4));
 
 // Opção 3:
 
@@ -46,7 +46,7 @@ console.log(multiplicacao3(2, 5));
 
 // Opção 1:
 
-class Saudacao {
+class Saudacao1 {
     nome: string;
     
     constructor(nome: string) {
@@ -58,7 +58,7 @@ class Saudacao {
     };
 };
 
-const pessoa = new Saudacao('Manoela');
+const pessoa = new Saudacao1('Manoela');
 const saudacao = pessoa.dizOla();
 
 console.log(saudacao);

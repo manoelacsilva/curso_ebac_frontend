@@ -4,7 +4,7 @@
 // E uma função de saudação, que deverá receber um nome e retornar a concatenação 'Olá, ' + nome.
 // Função de multiplicação
 // Opção 1:
-class Multiplicacao {
+class Multiplicacao1 {
     constructor(a, b) {
         this.a = a;
         this.b = b;
@@ -16,21 +16,21 @@ class Multiplicacao {
     ;
 }
 ;
-const numeros = new Multiplicacao(2, 3);
+const numeros = new Multiplicacao1(2, 3);
 const resultado = numeros.multiplicar();
 console.log(resultado);
 // Opção 2:
-function multiplicacao(a, b) {
+function multiplicacao2(a, b) {
     return a * b;
 }
 ;
-console.log(multiplicacao(2, 4));
+console.log(multiplicacao2(2, 4));
 // Opção 3:
 const multiplicacao3 = (a, b) => a * b;
 console.log(multiplicacao3(2, 5));
 // Função de saudação
 // Opção 1:
-class Saudacao {
+class Saudacao1 {
     constructor(nome) {
         this.nome = nome;
     }
@@ -41,7 +41,7 @@ class Saudacao {
     ;
 }
 ;
-const pessoa = new Saudacao('Manoela');
+const pessoa = new Saudacao1('Manoela');
 const saudacao = pessoa.dizOla();
 console.log(saudacao);
 // Opção 2:
